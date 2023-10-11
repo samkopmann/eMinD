@@ -1,0 +1,7 @@
+*.pcap
+*/training/*.csv
+*data.caida.org*
+_000*
+*/tmp/*
+*statistics/mawi-ddos/
+*statistics/cic-ddos/

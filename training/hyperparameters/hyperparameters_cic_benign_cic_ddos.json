@@ -1,0 +1,134 @@
+{
+    "RandomForestClassifier": {
+        "0.25": {
+            "criterion": "gini",
+            "max_depth": 9,
+            "min_samples_split": 5,
+            "n_estimators": 200
+        },
+        "0.5": {
+            "criterion": "entropy",
+            "max_depth": null,
+            "min_samples_split": 6,
+            "n_estimators": 500
+        },
+        "0.75": {
+            "criterion": "entropy",
+            "max_depth": 9,
+            "min_samples_split": 5,
+            "n_estimators": 10
+        },
+        "1.0": {
+            "criterion": "gini",
+            "max_depth": null,
+            "min_samples_split": 5,
+            "n_estimators": 500
+        },
+        "1.25": {
+            "criterion": "entropy",
+            "max_depth": null,
+            "min_samples_split": 7,
+            "n_estimators": 50
+        },
+        "1.5": {
+            "criterion": "entropy",
+            "max_depth": null,
+            "min_samples_split": 9,
+            "n_estimators": 10
+        },
+        "1.75": {
+            "criterion": "entropy",
+            "max_depth": null,
+            "min_samples_split": 5,
+            "n_estimators": 10
+        }
+    },
+    "SVC": {
+        "0.25": {
+            "C": 10000,
+            "gamma": 0.1,
+            "kernel": "rbf"
+        },
+        "0.5": {
+            "C": 10000,
+            "gamma": 0.01,
+            "kernel": "sigmoid"
+        },
+        "0.75": {
+            "C": 1000,
+            "gamma": 0.1,
+            "kernel": "rbf"
+        },
+        "1.0": {
+            "C": 10000,
+            "gamma": 0.01,
+            "kernel": "sigmoid"
+        },
+        "1.25": {
+            "C": 100,
+            "gamma": 0.1,
+            "kernel": "rbf"
+        },
+        "1.5": {
+            "C": 10000,
+            "gamma": 0.1,
+            "kernel": "rbf"
+        },
+        "1.75": {
+            "C": 1000,
+            "gamma": 0.1,
+            "kernel": "rbf"
+        }
+    },
+    "DecisionTreeClassifier": {
+        "0.25": {
+            "criterion": "entropy",
+            "max_depth": 5,
+            "min_samples_leaf": 3,
+            "min_samples_split": 2,
+            "splitter": "best"
+        },
+        "0.5": {
+            "criterion": "entropy",
+            "max_depth": 8,
+            "min_samples_leaf": 3,
+            "min_samples_split": 4,
+            "splitter": "random"
+        },
+        "0.75": {
+            "criterion": "entropy",
+            "max_depth": 9,
+            "min_samples_leaf": 2,
+            "min_samples_split": 6,
+            "splitter": "random"
+        },
+        "1.0": {
+            "criterion": "gini",
+            "max_depth": 7,
+            "min_samples_leaf": 3,
+            "min_samples_split": 4,
+            "splitter": "random"
+        },
+        "1.25": {
+            "criterion": "gini",
+            "max_depth": 8,
+            "min_samples_leaf": 1,
+            "min_samples_split": 3,
+            "splitter": "random"
+        },
+        "1.5": {
+            "criterion": "entropy",
+            "max_depth": 6,
+            "min_samples_leaf": 2,
+            "min_samples_split": 2,
+            "splitter": "random"
+        },
+        "1.75": {
+            "criterion": "entropy",
+            "max_depth": 7,
+            "min_samples_leaf": 3,
+            "min_samples_split": 6,
+            "splitter": "random"
+        }
+    }
+}
